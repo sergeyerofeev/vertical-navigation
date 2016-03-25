@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"/>
+  <title>modal window</title>
+  <meta name="viewport" content="user-scalable=yes, width=device-width"/>
+  
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+  <ul class="menu-bar">
+    <li class="icon-home"><span>Главная</span></li>
+    <li class="icon-repo"><span>Новости</span><li>
+    <li class="icon-tools"><span>Инструменты</span>
+      <ul>
+        <li><span>JavaScript</span></li>
+        <li><span>Python</span></li>
+        <li><span>PHP</span></li>
+        <li><span>CSS</span></li>
+      </ul>
+    </li>
+    <li class="icon-phone"><span>Контакты</span>
+      <ul>
+        <li><span>Phone</span></li>
+        <li><span>E-mail</span></li>
+        <li><span>Адрес</span></li>
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="menu-trigger icon-menu"></div> 
+  <div class="content">
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur voluptate ea rerum similique sit, dolor aperiam ratione! Debitis doloremque quia ipsam, sint dignissimos impedit at adipisci incidunt aspernatur quam libero.</span>
+    <span>Nam dolorum nostrum ratione vitae commodi itaque hic ipsam quidem, exercitationem laborum placeat ex amet porro, tenetur temporibus eius voluptas id ab eaque. Facere, labore nostrum vel dolorem repellendus temporibus.</span>
+    <span>Itaque sequi quibusdam iusto, ipsa aliquid. Recusandae voluptates, commodi consequuntur aliquam, eligendi asperiores praesentium itaque explicabo distinctio, ipsa doloribus quo. Laborum quos a, quam ut perspiciatis possimus, iusto. Numquam, quisquam.</span>
+    <span>Suscipit debitis assumenda tempore. Vero possimus pariatur ratione dolores, cupiditate sapiente adipisci laboriosam. Eius id optio autem, placeat maxime deserunt non quasi, impedit dolor voluptate laboriosam explicabo corrupti soluta, laudantium.</span></p>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse possimus placeat, ipsa obcaecati culpa quod accusantium? Placeat expedita, velit eaque incidunt soluta odio ratione necessitatibus rerum, consectetur ipsum odit ex!</span>
+    <span>Nulla itaque voluptas, veritatis tempore, deserunt sit perferendis, officia dolor unde debitis magni eaque enim id suscipit! Iure, amet harum, porro officia asperiores debitis exercitationem ipsum magni, iusto eius, incidunt.</span>
+    <span>Consectetur dolorum eos, ad omnis perspiciatis ex saepe nesciunt error molestias ducimus repellendus, atque eum ipsam qui itaque illum voluptate, distinctio deleniti commodi fugiat laboriosam? Nisi velit temporibus quas harum!</span>
+    <span>Illo, nam? Dicta facilis provident, esse accusantium non, placeat doloremque soluta atque illum. Minus nobis temporibus qui repellat distinctio quis dignissimos expedita rerum officia quasi, quas enim. Sunt harum, cum!</span>
+    <span>Iure error modi pariatur ut sint accusantium voluptatibus. Quibusdam deleniti aliquid itaque ducimus, illum explicabo molestiae? Temporibus est, tenetur illo, quam aperiam nemo maiores sunt a totam veniam, dignissimos rerum.</span></p>
+  </div>
+
+  <script src="js/menu.js"></script>
+  <!--Дополнительный скрипт для запрета выделения контента-->
+  <script>
+    document.addEventListener('selectstart', function(event) {event.preventDefault();});
+  </script>
+</body>
+</html>
