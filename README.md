@@ -1,7 +1,14 @@
-# Вертикальная навигация в мобильных приложениях
+## Вертикальная навигация в мобильных приложениях
 Вертикальное меню, которое в неактивном состоянии находится под основным контентом. При вызове меню, контент сдвигается вправо на ширину меню.
 
-![Иллюстрация к проекту](https://github.com/sergeyerofeev/vertical-navigation/raw/master/image/menu.png)
+<p align="center" >
+<img src="https://github.com/sergeyerofeev/vertical-navigation/blob/master/image/image1.png" width="340" height="700"/>
+</p>
+
+<p align="center" >
+<img src="https://github.com/sergeyerofeev/vertical-navigation/blob/master/image/image2.png" width="671" height="357"/>
+</p>
+
 ### Описание
 Меню представляет собой маркированный список. На самый верхний элемент ul подключаем класс "menu-bar".
 Меню поддерживает вертикальную прокрутку, поэтому количество элементов li может быть не ограниченным.
